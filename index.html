@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MacSploit – Best MAC Executor for Roblox 2026</title>
+  <meta name="description" content="MacSploit is the best free mac executor for Roblox in 2026. Download the working macsploit executor with 3000+ scripts, fast injection, and macOS native support.">
+  <meta name="keywords" content="macsploit, macsploit roblox, macsploit executor, mac executor, free mac executor, best mac executor roblox, new mac executor, working mac executor, how to fix macsploit offline, macsploit download">
+  <link rel="canonical" href="https://macsploit-exe.github.io/">
+  <link rel="icon" href="img/macsploit-icon.webp">
+  <link rel="stylesheet" href="style/style.css">
+  <!-- Open Graph / Twitter (minimal) -->
+  <meta property="og:title" content="MacSploit - Best MAC Executor for Roblox 2026">
+  <meta property="og:description" content="MacSploit is the best free mac executor for Roblox in 2026. Download the working macsploit executor with 3000+ scripts.">
+  <meta property="og:url" content="https://macsploit-exe.github.io/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="MacSploit - Best MAC Executor for Roblox 2026">
+  <meta name="twitter:description" content="MacSploit is the best free mac executor for Roblox in 2026.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { poppins: ['Poppins', 'system-ui', '-apple-system', 'sans-serif'] },
+          colors: {
+            apple: { blue: '#0071E3', hover: '#0077ED', bg: '#F5F5F7', text: '#1D1D1F', sub: '#6E6E73', border: '#D2D2D7', soft: '#E8F0FE' }
+          },
+          maxWidth: { 'xl6': '1200px' }
+        }
+      }
+    }
+  </script>
+  <style>
+    /* Inline style (same as style.css) */
+    * { font-family: 'Poppins', system-ui, -apple-system, sans-serif; }
+    html { scroll-behavior: smooth; }
+
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.5s ease, transform 0.5s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+
+    .h1-gradient { background: linear-gradient(135deg, #1D1D1F 0%, #2c3e6b 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+
+    @keyframes fillBar { from { width: 0; } to { width: 85%; } }
+    .anim-bar.active .bar-fill { animation: fillBar 1.5s ease-out forwards; }
+
+    @keyframes growBar { from { transform: scaleY(0); } to { transform: scaleY(1); } }
+    .anim-histo.active .histo-bar { animation: growBar 0.6s ease-out forwards; transform-origin: bottom; }
+
+    @keyframes drawArc { from { stroke-dashoffset: 188; } to { stroke-dashoffset: 28; } }
+    .anim-arc.active .arc-path { animation: drawArc 1.5s ease-out forwards; }
+
+    .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.35s ease; }
+    .faq-item.open .faq-answer { max-height: 300px; }
+    .faq-item.open .faq-chevron { transform: rotate(180deg); }
+    .faq-chevron { transition: transform 0.3s ease; }
+
+    .macos-window { border-radius: 10px; overflow: hidden; box-shadow: 0 20px 60px rgba(0,0,0,0.12), 0 2px 8px rgba(0,0,0,0.06); border: 1px solid #D2D2D7; background: #fff; }
+    .macos-titlebar { height: 32px; background: #F5F5F7; display: flex; align-items: center; padding: 0 12px; gap: 6px; border-bottom: 1px solid #E5E5E5; }
+    .macos-dot { width: 10px; height: 10px; border-radius: 50%; }
+
+    .feat-card {
+      background: #fff;
+      border: 1px solid #E8E8ED;
+      border-radius: 20px;
+      padding: 28px 22px 22px;
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.35s cubic-bezier(.22,.68,0,1.2), box-shadow 0.35s ease;
+    }
+    .feat-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.08), 0 2px 8px rgba(0,0,0,0.04);
+    }
+    .feat-orb {
+      position: absolute;
+      top: -30px;
+      right: -30px;
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      filter: blur(35px);
+      opacity: 0.55;
+      transition: opacity 0.4s ease, transform 0.5s ease;
+      pointer-events: none;
+    }
+    .feat-card:hover .feat-orb {
+      opacity: 0.75;
+      transform: scale(1.15);
+    }
+    .feat-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 3px 9px;
+      border-radius: 50px;
+      font-size: 9px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    .feat-icon-wrap {
+      width: 44px;
+      height: 44px;
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 14px;
+      transition: transform 0.3s ease;
+    }
+    .feat-card:hover .feat-icon-wrap {
+      transform: scale(1.08) rotate(-3deg);
+    }
+    .game-card {
+      background: #fff;
+      border: 1px solid #E8E8ED;
+      border-radius: 20px;
+      padding: 20px;
+      transition: transform 0.35s cubic-bezier(.22,.68,0,1.2), box-shadow 0.35s ease;
+    }
+    .game-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 16px 40px rgba(0,0,0,0.08);
+    }
+    .game-icon {
+      width: 52px;
+      height: 52px;
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 16px;
+      margin-bottom: 14px;
+      transition: transform 0.3s ease;
+    }
+    .game-card:hover .game-icon { transform: scale(1.06) rotate(2deg); }
+    .game-status {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 9px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 3px 10px;
+      border-radius: 50px;
+    }
+    .status-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      animation: status-blink 1.8s ease-in-out infinite;
+    }
+    @keyframes status-blink { 0%,100%{opacity:1;} 50%{opacity:0.4;} }
+    .game-scripts-count { font-size: 20px; font-weight: 700; letter-spacing: -0.03em; line-height: 1; }
+    .game-cta-card {
+      background: linear-gradient(135deg, #0071E3 0%, #00C6FF 50%, #667EEA 100%);
+      background-size: 200% 200%;
+      animation: cta-shimmer 4s ease-in-out infinite;
+      border: none;
+    }
+    @keyframes cta-shimmer { 0%,100%{background-position:0% 50%;} 50%{background-position:100% 50%;} }
+
+    .changelog-card {
+      background: #fff;
+      border: 1px solid #E8E8ED;
+      border-radius: 20px;
+      overflow: hidden;
+      transition: transform 0.35s cubic-bezier(.22,.68,0,1.2), box-shadow 0.35s ease;
+    }
+    .changelog-card:hover { transform: translateY(-4px); box-shadow: 0 16px 40px rgba(0,0,0,0.07); }
+    .changelog-header { padding: 20px 22px 14px; display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+    .changelog-ver { font-size: 22px; font-weight: 800; letter-spacing: -0.04em; line-height: 1; }
+    .changelog-date-badge { display: inline-flex; align-items: center; gap: 5px; padding: 4px 12px; border-radius: 50px; font-size: 10px; font-weight: 600; }
+    .changelog-body { padding: 0 22px 20px; }
+    .changelog-item { display: flex; align-items: flex-start; gap: 10px; padding: 8px 0; border-top: 1px solid #F3F3F5; }
+    .changelog-item:first-child { border-top: none; }
+    .cl-tag { flex-shrink: 0; padding: 2px 8px; border-radius: 6px; font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; margin-top: 1px; }
+    .cl-tag-fix { background: #FEF0E8; color: #EA580C; }
+    .cl-tag-new { background: #ECFDF5; color: #16A34A; }
+    .cl-tag-perf { background: #EEF0FF; color: #4F46E5; }
+    .cl-tag-update { background: #E8F4FE; color: #0071E3; }
+    .changelog-accent { height: 4px; border-radius: 4px 4px 0 0; }
+
+    .issue-card {
+      background: #fff;
+      border: 1px solid #E8E8ED;
+      border-radius: 20px;
+      padding: 22px;
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.35s cubic-bezier(.22,.68,0,1.2), box-shadow 0.35s ease;
+    }
+    .issue-card:hover { transform: translateY(-4px); box-shadow: 0 16px 40px rgba(0,0,0,0.07); }
+    .issue-num { position: absolute; top: 16px; right: 18px; font-size: 40px; font-weight: 800; opacity: 0.04; line-height: 1; pointer-events: none; }
+    .issue-icon { width: 40px; height: 40px; border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 14px; transition: transform 0.3s ease; }
+    .issue-card:hover .issue-icon { transform: scale(1.08); }
+    .issue-fix-tag { display: inline-flex; align-items: center; gap: 4px; padding: 4px 10px; border-radius: 8px; font-size: 9px; font-weight: 600; margin-top: 12px; letter-spacing: 0.02em; }
+
+    .faq-card {
+      background: #fff;
+      border: 1px solid #E8E8ED;
+      border-radius: 16px;
+      overflow: hidden;
+      transition: box-shadow 0.3s ease, border-color 0.3s ease;
+    }
+    .faq-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.05); }
+    .faq-card.open { border-color: #0071E3; box-shadow: 0 4px 20px rgba(0,113,227,0.08); }
+    .faq-card .faq-btn { width: 100%; display: flex; align-items: center; gap: 14px; padding: 18px 20px; text-align: left; cursor: pointer; border: none; background: none; }
+    .faq-card .faq-num { width: 32px; height: 32px; border-radius: 10px; background: #F5F5F7; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 700; color: #6E6E73; flex-shrink: 0; transition: background 0.3s ease, color 0.3s ease; }
+    .faq-card.open .faq-num { background: #0071E3; color: #fff; }
+    .faq-card .faq-q { flex: 1; font-size: 13px; font-weight: 600; color: #1D1D1F; }
+    .faq-card .faq-toggle { width: 28px; height: 28px; border-radius: 50%; background: #F5F5F7; display: flex; align-items: center; justify-content: center; flex-shrink: 0; transition: background 0.3s ease, transform 0.35s ease; }
+    .faq-card.open .faq-toggle { background: #E8F0FE; transform: rotate(45deg); }
+    .faq-card .faq-body { max-height: 0; overflow: hidden; transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
+    .faq-card.open .faq-body { max-height: 250px; }
+    .faq-card .faq-body-inner { padding: 0 20px 18px 66px; }
+  </style>
+</head>
+<body class="bg-white text-apple-text font-poppins antialiased">
+
+  <!-- HEADER -->
+  <header class="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-lg border-b border-apple-border" style="height:54px;">
+    <div class="max-w-xl6 mx-auto px-4 h-full flex items-center justify-between">
+      <a href="#" class="flex items-center gap-2">
+        <img src="img/macsploit-icon.webp" alt="MacSploit Icon" class="h-7 w-7" width="28" height="28" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2228%22 height=%2228%22 viewBox=%220 0 28 28%22%3E%3Crect width=%2228%22 height=%2228%22 fill=%22%230071E3%22 rx=%226%22/%3E%3Ctext x=%225%22 y=%2220%22 font-size=%2218%22 fill=%22white%22 font-weight=%22700%22%3EMS%3C/text%3E%3C/svg%3E'">
+        <span class="text-sm font-semibold text-apple-text tracking-tight">MacSploit</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-6">
+        <a href="#features" class="text-xs font-medium text-apple-sub hover:text-apple-blue transition-colors">Features</a>
+        <a href="#how-to-use" class="text-xs font-medium text-apple-sub hover:text-apple-blue transition-colors">How to Use</a>
+        <a href="#changelog" class="text-xs font-medium text-apple-sub hover:text-apple-blue transition-colors">Changelog</a>
+        <a href="#faq" class="text-xs font-medium text-apple-sub hover:text-apple-blue transition-colors">FAQ</a>
+      </nav>
+      <a href="#" onclick="triggerDownload()" class="inline-flex items-center gap-1.5 bg-apple-blue hover:bg-apple-hover text-white text-xs font-medium px-4 py-1.5 rounded-full transition-colors">
+        <svg fill="currentColor" width="14" height="14" viewBox="-3.5 -2 24 24" xmlns="http://www.w3.org/2000/svg"><path d='M13.623 10.627c-.025-2.533 2.066-3.748 2.159-3.808-1.175-1.72-3.005-1.955-3.657-1.982-1.557-.158-3.039.917-3.83.917-.788 0-2.008-.894-3.3-.87C3.299 4.909 1.734 5.87.86 7.39c-1.764 3.06-.452 7.595 1.267 10.077.84 1.215 1.842 2.58 3.157 2.53 1.266-.05 1.745-.819 3.276-.819 1.531 0 1.962.82 3.302.795 1.363-.026 2.226-1.239 3.06-2.457.965-1.41 1.362-2.775 1.386-2.845-.03-.013-2.658-1.02-2.684-4.045zm-2.518-7.433c.698-.847 1.169-2.022 1.04-3.194C11.14.04 9.921.67 9.2 1.515c-.647.75-1.214 1.945-1.062 3.094 1.122.088 2.268-.57 2.967-1.415z'/></svg>
+        Download
+      </a>
+      <button id="mobileMenuBtn" class="md:hidden p-1.5" aria-label="Menu">
+        <svg width="20" height="20" fill="none" stroke="#1D1D1F" stroke-width="2"><line x1="3" y1="6" x2="17" y2="6"/><line x1="3" y1="10" x2="17" y2="10"/><line x1="3" y1="14" x2="17" y2="14"/></svg>
+      </button>
+    </div>
+    <div id="mobileMenu" class="hidden md:hidden bg-white border-b border-apple-border px-4 py-3">
+      <a href="#features" class="block py-1.5 text-xs font-medium text-apple-sub">Features</a>
+      <a href="#how-to-use" class="block py-1.5 text-xs font-medium text-apple-sub">How to Use</a>
+      <a href="#changelog" class="block py-1.5 text-xs font-medium text-apple-sub">Changelog</a>
+      <a href="#faq" class="block py-1.5 text-xs font-medium text-apple-sub">FAQ</a>
+    </div>
+  </header>
+
+  <div style="height:54px;"></div>
+
+  <!-- BREADCRUMBS -->
+  <div class="bg-apple-bg border-b border-apple-border" style="height:36px;">
+    <div class="max-w-xl6 mx-auto px-4 h-full flex items-center justify-between">
+      <nav aria-label="Breadcrumb" class="flex items-center gap-1.5 text-[11px]">
+        <a href="/" class="inline-flex items-center gap-1 text-apple-sub hover:text-apple-blue transition-colors">
+          <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path d="M3 12l9-8 9 8M5 11v8a1 1 0 001 1h4v-5h4v5h4a1 1 0 001-1v-8"/></svg>
+          Home
+        </a>
+        <svg width="8" height="8" fill="none" stroke="#6E6E73" stroke-width="2" viewBox="0 0 24 24"><path d="M9 18l6-6-6-6"/></svg>
+        <span class="text-apple-blue font-medium">MacSploit Executor</span>
+      </nav>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <section class="bg-apple-bg py-12 md:py-16">
+    <div class="max-w-xl6 mx-auto px-4">
+      <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+        <div class="flex-1 max-w-lg">
+          <span class="inline-block bg-apple-soft text-apple-blue text-[11px] font-medium px-3 py-1 rounded-full mb-4 uppercase tracking-wide">Official MacSploit</span>
+          <h1 class="mb-4">
+            <span class="block h1-gradient text-5xl md:text-6xl font-extrabold tracking-tight leading-none">MacSploit</span>
+            <span class="block text-apple-sub text-base md:text-lg font-normal mt-1 tracking-normal">Executor for Mac</span>
+          </h1>
+          <p class="text-sm text-apple-sub leading-relaxed mb-6 max-w-md">The best free mac executor for Roblox in 2026. Fast script injection, 3,000+ scripts, macOS-native design, and a clean minimal interface — built for Apple Silicon and Intel. A working mac executor, always updated.</p>
+          <div class="flex flex-wrap items-center gap-3">
+            <a href="javascript:void(0)" onclick="triggerDownload()" class="inline-flex items-center gap-2 bg-apple-blue hover:bg-apple-hover text-white text-sm font-medium px-6 py-2.5 rounded-full transition-colors">
+              <svg fill="currentColor" width="16" height="16" viewBox="-3.5 -2 24 24" xmlns="http://www.w3.org/2000/svg"><path d='M13.623 10.627c-.025-2.533 2.066-3.748 2.159-3.808-1.175-1.72-3.005-1.955-3.657-1.982-1.557-.158-3.039.917-3.83.917-.788 0-2.008-.894-3.3-.87C3.299 4.909 1.734 5.87.86 7.39c-1.764 3.06-.452 7.595 1.267 10.077.84 1.215 1.842 2.58 3.157 2.53 1.266-.05 1.745-.819 3.276-.819 1.531 0 1.962.82 3.302.795 1.363-.026 2.226-1.239 3.06-2.457.965-1.41 1.362-2.775 1.386-2.845-.03-.013-2.658-1.02-2.684-4.045zm-2.518-7.433c.698-.847 1.169-2.022 1.04-3.194C11.14.04 9.921.67 9.2 1.515c-.647.75-1.214 1.945-1.062 3.094 1.122.088 2.268-.57 2.967-1.415z'/></svg>
+              Download for Mac
+            </a>
+            <a href="#how-to-use" class="inline-flex items-center gap-2 border border-apple-border text-apple-text text-sm font-medium px-6 py-2.5 rounded-full hover:bg-gray-50 transition-colors">How to Use</a>
+          </div>
+        </div>
+        <div class="flex-1 max-w-xl reveal">
+          <div class="macos-window">
+            <div class="macos-titlebar">
+              <div class="macos-dot" style="background:#FF5F57;"></div>
+              <div class="macos-dot" style="background:#FEBC2E;"></div>
+              <div class="macos-dot" style="background:#28C840;"></div>
+            </div>
+            <img src="img/macsploit-ui.webp" alt="MacSploit UI" class="w-full block" width="800" height="500" loading="lazy" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22800%22 height=%22500%22 viewBox=%220 0 800 500%22%3E%3Crect width=%22800%22 height=%22500%22 fill=%22%23F5F5F7%22/%3E%3Ctext x=%22300%22 y=%22240%22 font-size=%2236%22 fill=%22%236E6E73%22 font-weight=%22600%22%3EMacSploit UI%3C/text%3E%3C/svg%3E'">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATUS STRIP -->
+  <section class="py-8 bg-white">
+    <div class="max-w-xl6 mx-auto px-4">
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-3">
+        <div class="anim-bar border border-apple-border rounded-xl p-4 reveal">
+          <div class="flex items-center gap-2 mb-2"><svg width="18" height="18" fill="none" stroke="#0071E3" stroke-width="2" viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg><span class="text-xs font-semibold text-apple-text">Script Execution</span></div>
+          <div class="flex items-center justify-between mb-2"><span class="text-[11px] text-apple-sub">~0.3s avg load</span><span class="text-[10px] font-semibold text-green-600 bg-green-50 px-2 py-0.5 rounded-full">Fast</span></div>
+          <div class="h-1.5 bg-gray-100 rounded-full overflow-hidden"><div class="bar-fill h-full bg-apple-blue rounded-full" style="width:0;"></div></div>
+        </div>
+        <div class="anim-histo border border-apple-border rounded-xl p-4 reveal">
+          <div class="flex items-center gap-2 mb-2"><svg width="18" height="18" fill="none" stroke="#0071E3" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg><span class="text-xs font-semibold text-apple-text">Uptime</span></div>
+          <div class="flex items-center justify-between mb-2"><span class="text-[11px] text-apple-sub">99.8% uptime</span><span class="text-[10px] font-semibold text-green-600 bg-green-50 px-2 py-0.5 rounded-full">Online</span></div>
+          <div class="flex items-end gap-1 h-5">
+            <div class="histo-bar w-full bg-apple-blue rounded-sm" style="height:60%;transform:scaleY(0);animation-delay:0s;"></div>
+            <div class="histo-bar w-full bg-apple-blue rounded-sm" style="height:80%;transform:scaleY(0);animation-delay:0.08s;"></div>
+            <div class="histo-bar w-full bg-apple-blue rounded-sm" style="height:70%;transform:scaleY(0);animation-delay:0.16s;"></div>
+            <div class="histo-bar w-full bg-apple-blue rounded-sm" style="height:100%;transform:scaleY(0);animation-delay:0.24s;"></div>
+            <div class="histo-bar w-full bg-apple-blue rounded-sm" style="height:90%;transform:scaleY(0);animation-delay:0.32s;"></div>
+            <div class="histo-bar w-full bg-apple-blue rounded-sm" style="height:95%;transform:scaleY(0);animation-delay:0.4s;"></div>
+            <div class="histo-bar w-full bg-apple-blue rounded-sm" style="height:100%;transform:scaleY(0);animation-delay:0.48s;"></div>
+          </div>
+        </div>
+        <div class="border border-apple-border rounded-xl p-4 reveal">
+          <div class="flex items-center gap-2 mb-2"><svg width="18" height="18" fill="none" stroke="#0071E3" stroke-width="2" viewBox="0 0 24 24"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg><span class="text-xs font-semibold text-apple-text">Scripts</span></div>
+          <div class="flex items-center justify-between mb-1"><span class="text-xl font-bold text-apple-text counter" data-target="3000">0</span><span class="text-[10px] font-semibold text-apple-blue bg-blue-50 px-2 py-0.5 rounded-full">Updated</span></div>
+          <span class="text-[11px] text-apple-sub">Scripts in hub</span>
+        </div>
+        <div class="anim-arc border border-apple-border rounded-xl p-4 reveal">
+          <div class="flex items-center gap-2 mb-2"><svg width="18" height="18" fill="none" stroke="#0071E3" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg><span class="text-xs font-semibold text-apple-text">Compatibility</span></div>
+          <div class="flex items-center justify-between mb-2"><span class="text-[11px] text-apple-sub">macOS 12–15</span><span class="text-[10px] font-semibold text-purple-600 bg-purple-50 px-2 py-0.5 rounded-full">Compatible</span></div>
+          <svg width="52" height="28" viewBox="0 0 60 32">
+            <circle cx="30" cy="30" r="24" fill="none" stroke="#E5E5E5" stroke-width="4" stroke-dasharray="150.8" stroke-dashoffset="0" transform="rotate(-210 30 30)"/>
+            <circle class="arc-path" cx="30" cy="30" r="24" fill="none" stroke="#7C3AED" stroke-width="4" stroke-linecap="round" stroke-dasharray="150.8" stroke-dashoffset="150.8" transform="rotate(-210 30 30)"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section id="features" class="py-14 bg-apple-bg">
+    <div class="max-w-xl6 mx-auto px-4">
+      <div class="text-center mb-10 reveal">
+        <div class="inline-flex items-center gap-2 bg-white border border-apple-border rounded-full px-4 py-1.5 mb-4"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#0071E3" stroke-width="2"/><path d="M8 12l3 3 5-6" stroke="#0071E3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="text-[11px] font-semibold text-apple-blue tracking-wide uppercase">8 Core Features</span></div>
+        <h2 class="text-2xl md:text-3xl font-bold text-apple-text tracking-tight mb-2">Everything You Need on Mac</h2>
+        <p class="text-sm text-apple-sub max-w-lg mx-auto">MacSploit is a complete mac executor built for Roblox. Every feature is designed for performance, simplicity, and reliability on macOS.</p>
+      </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+        <!-- 8 feature cards -->
+        <div class="feat-card reveal"><div class="feat-orb" style="background: linear-gradient(135deg, #667EEA, #764BA2);"></div><div class="flex items-center justify-between mb-4"><div class="feat-icon-wrap" style="background: linear-gradient(135deg, #EEF0FF, #F3EEFF);"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" stroke="#667EEA" stroke-width="1.6"/><path d="M12 6v6l4.5 2.5" stroke="#764BA2" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="12" r="2" fill="#764BA2" opacity="0.3"/></svg></div><span class="feat-badge" style="background: #EEF0FF; color: #667EEA;"><svg width="8" height="8" viewBox="0 0 8 8"><circle cx="4" cy="4" r="3" fill="#667EEA"/></svg>External</span></div><h3 class="text-[13px] font-semibold text-apple-text mb-1.5">Mac-Native External Workflow</h3><p class="text-[11px] text-apple-sub leading-relaxed">The macsploit executor runs outside the Roblox process for a clean, stable approach. No interference with game memory.</p></div>
+        <div class="feat-card reveal"><div class="feat-orb" style="background: linear-gradient(135deg, #11998E, #38EF7D);"></div><div class="flex items-center justify-between mb-4"><div class="feat-icon-wrap" style="background: linear-gradient(135deg, #E6FBF5, #E8FEEF);"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="3" y="6" width="18" height="12" rx="3" stroke="#11998E" stroke-width="1.6"/><path d="M3 10h18" stroke="#38EF7D" stroke-width="1.4"/><circle cx="7.5" cy="14.5" r="1.5" fill="#11998E" opacity="0.4"/><path d="M14 14h4" stroke="#11998E" stroke-width="1.4" stroke-linecap="round"/></svg></div><span class="feat-badge" style="background: #E6FBF5; color: #11998E;"><svg width="8" height="8" viewBox="0 0 8 8"><circle cx="4" cy="4" r="3" fill="#11998E"/></svg>Free</span></div><h3 class="text-[13px] font-semibold text-apple-text mb-1.5">Free & Always Updated</h3><p class="text-[11px] text-apple-sub leading-relaxed">A free mac executor that stays current with every Roblox update in 2026. No subscriptions, no hidden costs.</p></div>
+        <div class="feat-card reveal"><div class="feat-orb" style="background: linear-gradient(135deg, #F093FB, #F5576C);"></div><div class="flex items-center justify-between mb-4"><div class="feat-icon-wrap" style="background: linear-gradient(135deg, #FEF0FA, #FFF0F2);"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4z" stroke="#F093FB" stroke-width="1.5" stroke-linejoin="round"/><rect x="14" y="14" width="6" height="6" rx="3" stroke="#F5576C" stroke-width="1.5"/><circle cx="17" cy="17" r="1" fill="#F5576C" opacity="0.5"/></svg></div><span class="feat-badge" style="background: #FEF0FA; color: #E040A0;"><svg width="8" height="8" viewBox="0 0 8 8"><circle cx="4" cy="4" r="3" fill="#E040A0"/></svg>3000+</span></div><h3 class="text-[13px] font-semibold text-apple-text mb-1.5">Script Hub Access</h3><p class="text-[11px] text-apple-sub leading-relaxed">A working mac executor with 3,000+ scripts built into the hub. Browse, search, and inject with one click.</p></div>
+        <div class="feat-card reveal"><div class="feat-orb" style="background: linear-gradient(135deg, #FA8231, #FBC531);"></div><div class="flex items-center justify-between mb-4"><div class="feat-icon-wrap" style="background: linear-gradient(135deg, #FFF5ED, #FFFBEE);"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M6 3h12l2 4H4l2-4z" stroke="#FA8231" stroke-width="1.5" stroke-linejoin="round"/><path d="M4 7h16v11a3 3 0 01-3 3H7a3 3 0 01-3-3V7z" stroke="#FA8231" stroke-width="1.5"/><path d="M9 12l2 2 4-4" stroke="#FBC531" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="feat-badge" style="background: #FFF5ED; color: #FA8231;"><svg width="8" height="8" viewBox="0 0 8 8"><circle cx="4" cy="4" r="3" fill="#FA8231"/></svg>Verified</span></div><h3 class="text-[13px] font-semibold text-apple-text mb-1.5">Da Hood & Popular Games</h3><p class="text-[11px] text-apple-sub leading-relaxed">The best mac executor for Roblox games like Da Hood, Blox Fruits, Arsenal, and more. Tested and verified scripts.</p></div>
+        <div class="feat-card reveal"><div class="feat-orb" style="background: linear-gradient(135deg, #0071E3, #00C6FF);"></div><div class="flex items-center justify-between mb-4"><div class="feat-icon-wrap" style="background: linear-gradient(135deg, #E8F4FE, #E0F7FF);"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M13 2L4.5 13.5h6L9.5 22l9-12h-6L13 2z" fill="url(#bolt-grad)" opacity="0.15"/><path d="M13 2L4.5 13.5h6L9.5 22l9-12h-6L13 2z" stroke="url(#bolt-grad)" stroke-width="1.6" stroke-linejoin="round"/><defs><linearGradient id="bolt-grad" x1="4" y1="2" x2="19" y2="22"><stop stop-color="#0071E3"/><stop offset="1" stop-color="#00C6FF"/></linearGradient></defs></svg></div><span class="feat-badge" style="background: #E8F4FE; color: #0071E3;"><svg width="8" height="8" viewBox="0 0 8 8"><circle cx="4" cy="4" r="3" fill="#0071E3"/></svg>~0.3s</span></div><h3 class="text-[13px] font-semibold text-apple-text mb-1.5">Fast Script Injection</h3><p class="text-[11px] text-apple-sub leading-relaxed">This new mac executor delivers near-instant script injection. Average load time sits at ~0.3 seconds.</p></div>
+        <div class="feat-card reveal"><div class="feat-orb" style="background: linear-gradient(135deg, #A18CD1, #FBC2EB);"></div><div class="flex items-center justify-between mb-4"><div class="feat-icon-wrap" style="background: linear-gradient(135deg, #F3EEFF, #FEF0F8);"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="4" stroke="#A18CD1" stroke-width="1.5"/><rect x="6" y="6" width="5" height="3" rx="1" fill="#A18CD1" opacity="0.3"/><rect x="6" y="11" width="12" height="2" rx="1" fill="#FBC2EB" opacity="0.5"/><rect x="6" y="15" width="8" height="2" rx="1" fill="#A18CD1" opacity="0.2"/></svg></div><span class="feat-badge" style="background: #F3EEFF; color: #8B5CF6;"><svg width="8" height="8" viewBox="0 0 8 8"><circle cx="4" cy="4" r="3" fill="#8B5CF6"/></svg>macOS UI</span></div><h3 class="text-[13px] font-semibold text-apple-text mb-1.5">Minimal Clean Interface</h3><p class="text-[11px] text-apple-sub leading-relaxed">A polished macOS-style UI with zero bloat. Script editor, console, and controls all in one compact window.</p></div>
+        <div class="feat-card reveal"><div class="feat-orb" style="background: linear-gradient(135deg, #43E97B, #38F9D7);"></div><div class="flex items-center justify-between mb-4"><div class="feat-icon-wrap" style="background: linear-gradient(135deg, #EAFFF2, #E8FEFA);"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="#43E97B" stroke-width="1.5"/><path d="M12 7v5" stroke="#38F9D7" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16" r="1.2" fill="#43E97B"/><path d="M8.5 4.5l1 1.5M15.5 4.5l-1 1.5" stroke="#43E97B" stroke-width="1.2" stroke-linecap="round" opacity="0.4"/></svg></div><span class="feat-badge" style="background: #EAFFF2; color: #22C55E;"><svg width="8" height="8" viewBox="0 0 8 8"><circle cx="4" cy="4" r="3" fill="#22C55E"/></svg>3 Steps</span></div><h3 class="text-[13px] font-semibold text-apple-text mb-1.5">Beginner-Friendly Setup</h3><p class="text-[11px] text-apple-sub leading-relaxed">Learn how to get MacSploit running in three simple steps. No terminal commands, no complex configuration required.</p></div>
+        <div class="feat-card reveal"><div class="feat-orb" style="background: linear-gradient(135deg, #EE5A24, #F39C12);"></div><div class="flex items-center justify-between mb-4"><div class="feat-icon-wrap" style="background: linear-gradient(135deg, #FFF3ED, #FFFAEF);"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4.93 4.93l14.14 14.14" stroke="#EE5A24" stroke-width="1.6" stroke-linecap="round"/><path d="M8.5 8.5a5 5 0 017 0" stroke="#F39C12" stroke-width="1.5" stroke-linecap="round"/><path d="M5.64 5.64a9 9 0 0112.73 0" stroke="#EE5A24" stroke-width="1.3" stroke-linecap="round" opacity="0.4"/><circle cx="12" cy="17" r="2" fill="#EE5A24" opacity="0.8"/><path d="M12 12v3" stroke="#F39C12" stroke-width="1.8" stroke-linecap="round"/></svg></div><span class="feat-badge" style="background: #FFF3ED; color: #EE5A24;"><svg width="8" height="8" viewBox="0 0 8 8"><circle cx="4" cy="4" r="3" fill="#EE5A24"/></svg>Auto-Fix</span></div><h3 class="text-[13px] font-semibold text-apple-text mb-1.5">Offline Fix Support</h3><p class="text-[11px] text-apple-sub leading-relaxed">Need to know how to fix macsploit offline? Built-in diagnostics detect and resolve connection issues automatically.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUPPORTED SCRIPTS -->
+  <section class="py-14 bg-white">
+    <div class="max-w-xl6 mx-auto px-4">
+      <div class="text-center mb-10 reveal">
+        <div class="inline-flex items-center gap-2 bg-apple-bg border border-apple-border rounded-full px-4 py-1.5 mb-4"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z" stroke="#0071E3" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="text-[11px] font-semibold text-apple-blue tracking-wide uppercase">Script Hub</span></div>
+        <h2 class="text-2xl md:text-3xl font-bold text-apple-text tracking-tight mb-2">Supported Games & Scripts</h2>
+        <p class="text-sm text-apple-sub max-w-lg mx-auto">MacSploit supports thousands of Roblox scripts across the most popular games. Here are some highlights from the script hub.</p>
+      </div>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="game-card reveal"><div class="game-icon" style="background: linear-gradient(135deg, #FEE2E2, #FECACA); color: #DC2626;"><svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" stroke="#DC2626" stroke-width="1.4"/><path d="M8 14s1.5 2 4 2 4-2 4-2" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round"/><circle cx="9" cy="10" r="1.2" fill="#DC2626"/><circle cx="15" cy="10" r="1.2" fill="#DC2626"/></svg></div><h3 class="text-[13px] font-semibold text-apple-text mb-0.5">Da Hood</h3><p class="text-[10px] text-apple-sub mb-3">PvP & Combat Scripts</p><div class="flex items-center justify-between"><span class="game-scripts-count" style="color: #DC2626;">240+</span><span class="game-status" style="background: #FEF2F2; color: #DC2626;"><span class="status-dot" style="background: #DC2626;"></span>Active</span></div></div>
+        <div class="game-card reveal"><div class="game-icon" style="background: linear-gradient(135deg, #DBEAFE, #BFDBFE); color: #2563EB;"><svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M12 3C7 3 3 7 3 12c0 3 1.5 5.5 4 7" stroke="#2563EB" stroke-width="1.4" stroke-linecap="round"/><path d="M12 3c5 0 9 4 9 9 0 3-1.5 5.5-4 7" stroke="#60A5FA" stroke-width="1.4" stroke-linecap="round"/><circle cx="12" cy="12" r="4" stroke="#2563EB" stroke-width="1.4"/><path d="M12 8v8M8 12h8" stroke="#2563EB" stroke-width="1.2" stroke-linecap="round" opacity="0.4"/></svg></div><h3 class="text-[13px] font-semibold text-apple-text mb-0.5">Blox Fruits</h3><p class="text-[10px] text-apple-sub mb-3">RPG & Auto-Farm</p><div class="flex items-center justify-between"><span class="game-scripts-count" style="color: #2563EB;">520+</span><span class="game-status" style="background: #EFF6FF; color: #2563EB;"><span class="status-dot" style="background: #2563EB;"></span>Active</span></div></div>
+        <div class="game-card reveal"><div class="game-icon" style="background: linear-gradient(135deg, #FEF9C3, #FDE68A); color: #CA8A04;"><svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="#EAB308" opacity="0.15"/><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" stroke="#CA8A04" stroke-width="1.4"/><circle cx="9" cy="9" r="1" fill="#CA8A04" opacity="0.5"/><circle cx="15" cy="9" r="1" fill="#CA8A04" opacity="0.5"/></svg></div><h3 class="text-[13px] font-semibold text-apple-text mb-0.5">Pet Simulator X</h3><p class="text-[10px] text-apple-sub mb-3">Auto-Hatch & Dupe</p><div class="flex items-center justify-between"><span class="game-scripts-count" style="color: #CA8A04;">180+</span><span class="game-status" style="background: #FEFCE8; color: #CA8A04;"><span class="status-dot" style="background: #CA8A04;"></span>Active</span></div></div>
+        <div class="game-card reveal"><div class="game-icon" style="background: linear-gradient(135deg, #DCFCE7, #BBF7D0); color: #16A34A;"><svg width="26" height="26" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="#16A34A" stroke-width="1.4"/><circle cx="12" cy="12" r="5" stroke="#16A34A" stroke-width="1.2" opacity="0.5"/><circle cx="12" cy="12" r="1.5" fill="#16A34A"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3" stroke="#16A34A" stroke-width="1" stroke-linecap="round" opacity="0.3"/></svg></div><h3 class="text-[13px] font-semibold text-apple-text mb-0.5">Arsenal</h3><p class="text-[10px] text-apple-sub mb-3">Aimbot & ESP</p><div class="flex items-center justify-between"><span class="game-scripts-count" style="color: #16A34A;">310+</span><span class="game-status" style="background: #F0FDF4; color: #16A34A;"><span class="status-dot" style="background: #16A34A;"></span>Active</span></div></div>
+        <div class="game-card reveal"><div class="game-icon" style="background: linear-gradient(135deg, #FCE7F3, #FBCFE8); color: #DB2777;"><svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" stroke="#DB2777" stroke-width="1.4" stroke-linejoin="round"/><path d="M9 22V12h6v10" stroke="#DB2777" stroke-width="1.4" stroke-linejoin="round"/><circle cx="12" cy="7" r="1" fill="#EC4899" opacity="0.5"/></svg></div><h3 class="text-[13px] font-semibold text-apple-text mb-0.5">Brookhaven</h3><p class="text-[10px] text-apple-sub mb-3">Roleplay & Trolling</p><div class="flex items-center justify-between"><span class="game-scripts-count" style="color: #DB2777;">420+</span><span class="game-status" style="background: #FDF2F8; color: #DB2777;"><span class="status-dot" style="background: #DB2777;"></span>Active</span></div></div>
+        <div class="game-card reveal"><div class="game-icon" style="background: linear-gradient(135deg, #CCFBF1, #99F6E4); color: #0D9488;"><svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M3 15h2l2-4 3 8 3-12 2 6h2" stroke="#0D9488" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M19 15h2" stroke="#0D9488" stroke-width="1.6" stroke-linecap="round"/><circle cx="18" cy="6" r="3" stroke="#14B8A6" stroke-width="1.2" opacity="0.4"/></svg></div><h3 class="text-[13px] font-semibold text-apple-text mb-0.5">Natural Disaster</h3><p class="text-[10px] text-apple-sub mb-3">Survival & God Mode</p><div class="flex items-center justify-between"><span class="game-scripts-count" style="color: #0D9488;">95+</span><span class="game-status" style="background: #F0FDFA; color: #0D9488;"><span class="status-dot" style="background: #0D9488;"></span>Active</span></div></div>
+        <div class="game-card reveal"><div class="game-icon" style="background: linear-gradient(135deg, #E0E7FF, #C7D2FE); color: #4F46E5;"><svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M2 12l5-3v6l-5-3z" fill="#4F46E5" opacity="0.15"/><path d="M7 9h10a2 2 0 012 2v2a2 2 0 01-2 2H7V9z" stroke="#4F46E5" stroke-width="1.4"/><path d="M19 11h3" stroke="#4F46E5" stroke-width="1.4" stroke-linecap="round"/><circle cx="11" cy="12" r="1.5" stroke="#6366F1" stroke-width="1" opacity="0.5"/></svg></div><h3 class="text-[13px] font-semibold text-apple-text mb-0.5">Phantom Forces</h3><p class="text-[10px] text-apple-sub mb-3">FPS & Silent Aim</p><div class="flex items-center justify-between"><span class="game-scripts-count" style="color: #4F46E5;">275+</span><span class="game-status" style="background: #EEF2FF; color: #4F46E5;"><span class="status-dot" style="background: #4F46E5;"></span>Active</span></div></div>
+        <div class="game-card game-cta-card reveal" style="border-color: transparent;"><div style="position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;height:100%;"><div style="width:52px;height:52px;border-radius:16px;background:rgba(255,255,255,0.2);backdrop-filter:blur(8px);display:flex;align-items:center;justify-content:center;margin-bottom:14px;"><svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="M4 17l6-6-6-6M12 19h8" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="text-[28px] font-extrabold text-white leading-none mb-1" style="letter-spacing:-0.04em;">3,000+</span><span class="text-[11px] text-white/80 mb-3">Scripts & Growing</span><a href="#" onclick="triggerDownload()" class="inline-flex items-center gap-1.5 bg-white text-apple-blue text-[11px] font-semibold px-5 py-2 rounded-full hover:bg-gray-50 transition-all hover:shadow-lg hover:scale-105"><svg width="12" height="12" viewBox="0 0 24 24" fill="none"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3" stroke="#0071E3" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Open Script Hub</a></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW TO USE -->
+  <section id="how-to-use" class="py-12 bg-white">
+    <div class="max-w-xl6 mx-auto px-4">
+      <div class="text-center mb-8 reveal"><h2 class="text-2xl md:text-3xl font-bold text-apple-text tracking-tight mb-2">Get MacSploit in Minutes</h2><p class="text-sm text-apple-sub max-w-lg mx-auto">Three steps from download to script injection. No complex setup required — the macsploit executor handles everything.</p></div>
+      <div class="grid md:grid-cols-3 gap-3 mb-6">
+        <div class="border border-apple-border rounded-2xl p-5 reveal"><span class="text-3xl font-extrabold text-apple-blue/20">1</span><div class="mt-2 mb-2"><svg width="22" height="22" fill="none" stroke="#0071E3" stroke-width="1.8" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg></div><h3 class="text-xs font-semibold text-apple-text mb-1">Visit the Official Website</h3><p class="text-[11px] text-apple-sub leading-relaxed">Go to <strong>macsploit-exe.github.io</strong> — the only official source. Avoid third-party mirrors.</p></div>
+        <div class="border border-apple-border rounded-2xl p-5 reveal"><span class="text-3xl font-extrabold text-apple-blue/20">2</span><div class="mt-2 mb-2"><svg width="22" height="22" fill="none" stroke="#0071E3" stroke-width="1.8" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg></div><h3 class="text-xs font-semibold text-apple-text mb-1">Download the Installer</h3><p class="text-[11px] text-apple-sub leading-relaxed">Click the <a href="#" onclick="triggerDownload()" class="text-apple-blue hover:underline font-medium">download macsploit executor</a> button. The installer is approximately 45MB.</p></div>
+        <div class="border border-apple-border rounded-2xl p-5 reveal"><span class="text-3xl font-extrabold text-apple-blue/20">3</span><div class="mt-2 mb-2"><svg width="22" height="22" fill="none" stroke="#0071E3" stroke-width="1.8" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div><h3 class="text-xs font-semibold text-apple-text mb-1">Launch & Inject</h3><p class="text-[11px] text-apple-sub leading-relaxed">Open Roblox, launch MacSploit, and attach. Paste your script or browse the hub — injection takes less than a second.</p></div>
+      </div>
+      <div id="download" class="bg-apple-text rounded-2xl p-6 flex flex-col md:flex-row items-center justify-between gap-4 reveal">
+        <div class="flex items-center gap-4"><svg fill="#FFFFFF" width="32" height="32" viewBox="-3.5 -2 24 24" xmlns="http://www.w3.org/2000/svg"><path d='M13.623 10.627c-.025-2.533 2.066-3.748 2.159-3.808-1.175-1.72-3.005-1.955-3.657-1.982-1.557-.158-3.039.917-3.83.917-.788 0-2.008-.894-3.3-.87C3.299 4.909 1.734 5.87.86 7.39c-1.764 3.06-.452 7.595 1.267 10.077.84 1.215 1.842 2.58 3.157 2.53 1.266-.05 1.745-.819 3.276-.819 1.531 0 1.962.82 3.302.795 1.363-.026 2.226-1.239 3.06-2.457.965-1.41 1.362-2.775 1.386-2.845-.03-.013-2.658-1.02-2.684-4.045zm-2.518-7.433c.698-.847 1.169-2.022 1.04-3.194C11.14.04 9.921.67 9.2 1.515c-.647.75-1.214 1.945-1.062 3.094 1.122.088 2.268-.57 2.967-1.415z'/></svg><div><h3 class="text-white text-sm font-semibold">MacSploit for macOS</h3><p class="text-gray-400 text-[11px] leading-relaxed mt-0.5">macOS 12 Monterey or later · Apple Silicon & Intel · ~45MB · Roblox required</p></div></div>
+        <a href="#" onclick="triggerDownload()" class="inline-flex items-center gap-2 bg-apple-blue hover:bg-apple-hover text-white text-sm font-medium px-6 py-2.5 rounded-full transition-colors shrink-0"><svg fill="currentColor" width="16" height="16" viewBox="-3.5 -2 24 24" xmlns="http://www.w3.org/2000/svg"><path d='M13.623 10.627c-.025-2.533 2.066-3.748 2.159-3.808-1.175-1.72-3.005-1.955-3.657-1.982-1.557-.158-3.039.917-3.83.917-.788 0-2.008-.894-3.3-.87C3.299 4.909 1.734 5.87.86 7.39c-1.764 3.06-.452 7.595 1.267 10.077.84 1.215 1.842 2.58 3.157 2.53 1.266-.05 1.745-.819 3.276-.819 1.531 0 1.962.82 3.302.795 1.363-.026 2.226-1.239 3.06-2.457.965-1.41 1.362-2.775 1.386-2.845-.03-.013-2.658-1.02-2.684-4.045zm-2.518-7.433c.698-.847 1.169-2.022 1.04-3.194C11.14.04 9.921.67 9.2 1.515c-.647.75-1.214 1.945-1.062 3.094 1.122.088 2.268-.57 2.967-1.415z'/></svg>Download Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHANGELOG -->
+  <section id="changelog" class="py-14 bg-apple-bg">
+    <div class="max-w-xl6 mx-auto px-4">
+      <div class="text-center mb-10 reveal"><div class="inline-flex items-center gap-2 bg-white border border-apple-border rounded-full px-4 py-1.5 mb-4"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M12 8v4l3 3" stroke="#0071E3" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="12" r="9" stroke="#0071E3" stroke-width="1.6"/></svg><span class="text-[11px] font-semibold text-apple-blue tracking-wide uppercase">Changelog</span></div><h2 class="text-2xl md:text-3xl font-bold text-apple-text tracking-tight mb-2">Latest Updates</h2><p class="text-sm text-apple-sub max-w-lg mx-auto">MacSploit is continuously updated. Here's what changed in recent versions of the macsploit executor.</p></div>
+      <div class="grid md:grid-cols-3 gap-4 max-w-4xl mx-auto">
+        <div class="changelog-card reveal"><div class="changelog-accent" style="background: linear-gradient(90deg, #0071E3, #00C6FF);"></div><div class="changelog-header"><div><span class="changelog-ver" style="color: #0071E3;">v3.2.1</span><p class="text-[10px] text-apple-sub mt-1">Stability & Performance</p></div><span class="changelog-date-badge" style="background: #E8F4FE; color: #0071E3;"><svg width="10" height="10" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="18" rx="3" stroke="#0071E3" stroke-width="1.8"/><path d="M16 2v4M8 2v4M3 10h18" stroke="#0071E3" stroke-width="1.8" stroke-linecap="round"/></svg>Jun 2026</span></div><div class="changelog-body"><div class="changelog-item"><span class="cl-tag cl-tag-fix">Fix</span><span class="text-[11px] text-apple-sub leading-relaxed">Fixed offline connection — addresses <a href="#issues" class="text-apple-blue hover:underline font-medium">how to fix macsploit offline</a></span></div><div class="changelog-item"><span class="cl-tag cl-tag-perf">Perf</span><span class="text-[11px] text-apple-sub leading-relaxed">Injection speed improved by 40%</span></div><div class="changelog-item"><span class="cl-tag cl-tag-new">New</span><span class="text-[11px] text-apple-sub leading-relaxed">macOS 15 Sequoia compatibility</span></div></div></div>
+        <div class="changelog-card reveal"><div class="changelog-accent" style="background: linear-gradient(90deg, #667EEA, #764BA2);"></div><div class="changelog-header"><div><span class="changelog-ver" style="color: #667EEA;">v3.2.0</span><p class="text-[10px] text-apple-sub mt-1">Script Hub Overhaul</p></div><span class="changelog-date-badge" style="background: #EEF0FF; color: #667EEA;"><svg width="10" height="10" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="18" rx="3" stroke="#667EEA" stroke-width="1.8"/><path d="M16 2v4M8 2v4M3 10h18" stroke="#667EEA" stroke-width="1.8" stroke-linecap="round"/></svg>May 2026</span></div><div class="changelog-body"><div class="changelog-item"><span class="cl-tag cl-tag-new">New</span><span class="text-[11px] text-apple-sub leading-relaxed">Script Hub with 3,000+ entries</span></div><div class="changelog-item"><span class="cl-tag cl-tag-update">UI</span><span class="text-[11px] text-apple-sub leading-relaxed">Cleaner macOS-native interface refresh</span></div><div class="changelog-item"><span class="cl-tag cl-tag-fix">Fix</span><span class="text-[11px] text-apple-sub leading-relaxed">Da Hood scripts updated & verified</span></div></div></div>
+        <div class="changelog-card reveal"><div class="changelog-accent" style="background: linear-gradient(90deg, #11998E, #38EF7D);"></div><div class="changelog-header"><div><span class="changelog-ver" style="color: #11998E;">v3.1.5</span><p class="text-[10px] text-apple-sub mt-1">Silicon Optimization</p></div><span class="changelog-date-badge" style="background: #E6FBF5; color: #11998E;"><svg width="10" height="10" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="18" rx="3" stroke="#11998E" stroke-width="1.8"/><path d="M16 2v4M8 2v4M3 10h18" stroke="#11998E" stroke-width="1.8" stroke-linecap="round"/></svg>Apr 2026</span></div><div class="changelog-body"><div class="changelog-item"><span class="cl-tag cl-tag-perf">Perf</span><span class="text-[11px] text-apple-sub leading-relaxed">Performance optimizations across the board</span></div><div class="changelog-item"><span class="cl-tag cl-tag-fix">Fix</span><span class="text-[11px] text-apple-sub leading-relaxed">Crash fix on Apple Silicon M3/M4</span></div><div class="changelog-item"><span class="cl-tag cl-tag-new">New</span><span class="text-[11px] text-apple-sub leading-relaxed">Advanced executor mode for power users</span></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPARISON -->
+  <section class="py-12 bg-white">
+    <div class="max-w-xl6 mx-auto px-4">
+      <div class="text-center mb-8 reveal"><h2 class="text-2xl md:text-3xl font-bold text-apple-text tracking-tight mb-2">How MacSploit Compares</h2><p class="text-sm text-apple-sub max-w-lg mx-auto">See why MacSploit is the best free mac executor for Roblox compared to other options available in 2026.</p></div>
+      <div class="overflow-x-auto reveal"><table class="w-full text-[11px] border-collapse max-w-3xl mx-auto"><thead><tr class="border-b border-apple-border"><th class="text-left py-3 px-3 text-apple-sub font-medium">Feature</th><th class="py-3 px-3 text-center"><div class="inline-flex flex-col items-center"><span class="text-[10px] font-semibold text-white bg-apple-blue px-2 py-0.5 rounded-full mb-1">Recommended</span><span class="text-xs font-bold text-apple-text">MacSploit</span></div></th><th class="py-3 px-3 text-center text-xs font-semibold text-apple-sub">Codex Executor</th><th class="py-3 px-3 text-center text-xs font-semibold text-apple-sub">AppleScript<br><span class="font-normal text-[10px]">(Native Automation)</span></th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-2.5 px-3 text-apple-sub">Free to use</td><td class="text-center text-green-500 font-bold">✓</td><td class="text-center text-green-500 font-bold">✓</td><td class="text-center text-green-500 font-bold">✓</td></tr><tr class="border-b border-gray-100"><td class="py-2.5 px-3 text-apple-sub">macOS native support</td><td class="text-center text-green-500 font-bold">✓</td><td class="text-center text-red-400 font-bold">✗</td><td class="text-center text-green-500 font-bold">✓</td></tr><tr class="border-b border-gray-100"><td class="py-2.5 px-3 text-apple-sub">Roblox compatible</td><td class="text-center text-green-500 font-bold">✓</td><td class="text-center text-green-500 font-bold">✓</td><td class="text-center text-red-400 font-bold">✗</td></tr><tr class="border-b border-gray-100"><td class="py-2.5 px-3 text-apple-sub">Script Hub included</td><td class="text-center text-green-500 font-bold">✓</td><td class="text-center text-green-500 font-bold">✓</td><td class="text-center text-red-400 font-bold">✗</td></tr><tr class="border-b border-gray-100"><td class="py-2.5 px-3 text-apple-sub">Regular updates</td><td class="text-center text-green-500 font-bold">✓</td><td class="text-center text-green-500 font-bold">✓</td><td class="text-center text-apple-sub">N/A</td></tr><tr class="border-b border-gray-100"><td class="py-2.5 px-3 text-apple-sub">Beginner friendly</td><td class="text-center text-green-500 font-bold">✓</td><td class="text-center text-apple-sub">Partial</td><td class="text-center text-red-400 font-bold">✗</td></tr><tr class="border-b border-gray-100"><td class="py-2.5 px-3 text-apple-sub">External workflow</td><td class="text-center text-green-500 font-bold">✓</td><td class="text-center text-red-400 font-bold">✗</td><td class="text-center text-apple-sub">N/A</td></tr><tr><td class="py-2.5 px-3 text-apple-sub">Community support</td><td class="text-center text-green-500 font-bold">✓</td><td class="text-center text-green-500 font-bold">✓</td><td class="text-center text-apple-sub">Limited</td></tr></tbody></table></div>
+    </div>
+  </section>
+
+  <!-- ISSUES -->
+  <section id="issues" class="py-14 bg-apple-bg">
+    <div class="max-w-xl6 mx-auto px-4">
+      <div class="text-center mb-10 reveal"><div class="inline-flex items-center gap-2 bg-white border border-apple-border rounded-full px-4 py-1.5 mb-4"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M12 9v4M12 17h.01" stroke="#EE5A24" stroke-width="2.2" stroke-linecap="round"/><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" stroke="#EE5A24" stroke-width="1.6"/></svg><span class="text-[11px] font-semibold text-orange-600 tracking-wide uppercase">Troubleshooting</span></div><h2 class="text-2xl md:text-3xl font-bold text-apple-text tracking-tight mb-2">Common Issues & Fixes</h2><p class="text-sm text-apple-sub max-w-lg mx-auto">Running into a problem with the macsploit executor? Here are quick solutions to the most common issues.</p></div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="issue-card reveal"><span class="issue-num">01</span><div class="issue-icon" style="background: linear-gradient(135deg, #FEF0E8, #FEEAE0);"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M1 1l22 22M16.72 11.06A10.94 10.94 0 0119 12.55M5 12.55a10.94 10.94 0 015.17-2.39" stroke="#EE5A24" stroke-width="1.6" stroke-linecap="round"/><path d="M10.71 5.05A16 16 0 0122.56 9M1.42 9a16 16 0 014.47-2.63" stroke="#EE5A24" stroke-width="1.4" stroke-linecap="round" opacity="0.5"/><circle cx="12" cy="19" r="1.5" fill="#EE5A24"/></svg></div><h3 class="text-[13px] font-semibold text-apple-text mb-1">MacSploit Shows Offline</h3><p class="text-[11px] text-apple-sub leading-relaxed">How to fix macsploit offline: check your internet, disable VPN, and re-download the latest version from macsploit-exe.github.io. Built-in diagnostics can auto-detect the issue.</p><div class="issue-fix-tag" style="background: #FEF5ED; color: #EE5A24;"><svg width="10" height="10" viewBox="0 0 24 24" fill="none"><path d="M22 11.08V12a10 10 0 11-5.93-9.14" stroke="#EE5A24" stroke-width="2" stroke-linecap="round"/><path d="M22 4L12 14.01l-3-3" stroke="#EE5A24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Fix: Update + Disable VPN</div></div>
+        <div class="issue-card reveal"><span class="issue-num">02</span><div class="issue-icon" style="background: linear-gradient(135deg, #EEF0FF, #E8EAFF);"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="4" stroke="#4F46E5" stroke-width="1.5"/><path d="M12 8v4M12 16h.01" stroke="#4F46E5" stroke-width="2" stroke-linecap="round"/></svg></div><h3 class="text-[13px] font-semibold text-apple-text mb-1">Won't Open on macOS</h3><p class="text-[11px] text-apple-sub leading-relaxed">Go to System Settings → Privacy & Security, scroll down and click "Allow" next to MacSploit. This is a standard macOS Gatekeeper prompt for new apps.</p><div class="issue-fix-tag" style="background: #EEF0FF; color: #4F46E5;"><svg width="10" height="10" viewBox="0 0 24 24" fill="none"><path d="M22 11.08V12a10 10 0 11-5.93-9.14" stroke="#4F46E5" stroke-width="2" stroke-linecap="round"/><path d="M22 4L12 14.01l-3-3" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Fix: Allow in Security</div></div>
+        <div class="issue-card reveal"><span class="issue-num">03</span><div class="issue-icon" style="background: linear-gradient(135deg, #FEF0FA, #FFE8F4);"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" stroke="#DB2777" stroke-width="1.5" stroke-linejoin="round"/></svg></div><h3 class="text-[13px] font-semibold text-apple-text mb-1">Script Not Injecting</h3><p class="text-[11px] text-apple-sub leading-relaxed">Ensure Roblox is fully loaded and you're in a game before attaching. Wait for the world to render completely, then click Attach in MacSploit.</p><div class="issue-fix-tag" style="background: #FEF0FA; color: #DB2777;"><svg width="10" height="10" viewBox="0 0 24 24" fill="none"><path d="M22 11.08V12a10 10 0 11-5.93-9.14" stroke="#DB2777" stroke-width="2" stroke-linecap="round"/><path d="M22 4L12 14.01l-3-3" stroke="#DB2777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Fix: Wait for Game Load</div></div>
+        <div class="issue-card reveal"><span class="issue-num">04</span><div class="issue-icon" style="background: linear-gradient(135deg, #DCFCE7, #D1FAE5);"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v6m0 0H3m6 0h12M3 9v10a2 2 0 002 2h4m-6-12" stroke="#16A34A" stroke-width="1.5"/><path d="M15 13l-3 3m0 0l-3-3m3 3V9" stroke="#16A34A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/></svg></div><h3 class="text-[13px] font-semibold text-apple-text mb-1">Crashes on Apple Silicon</h3><p class="text-[11px] text-apple-sub leading-relaxed">Download the latest version of the mac executor with full M-chip support (M1/M2/M3/M4). Older versions may lack Apple Silicon optimizations.</p><div class="issue-fix-tag" style="background: #ECFDF5; color: #16A34A;"><svg width="10" height="10" viewBox="0 0 24 24" fill="none"><path d="M22 11.08V12a10 10 0 11-5.93-9.14" stroke="#16A34A" stroke-width="2" stroke-linecap="round"/><path d="M22 4L12 14.01l-3-3" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Fix: Update to Latest</div></div>
+        <div class="issue-card reveal"><span class="issue-num">05</span><div class="issue-icon" style="background: linear-gradient(135deg, #E8F4FE, #DBEAFE);"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="#2563EB" stroke-width="1.5"/><path d="M12 7v5l3.5 2" stroke="#2563EB" stroke-width="1.6" stroke-linecap="round"/></svg></div><h3 class="text-[13px] font-semibold text-apple-text mb-1">Roblox Update Broke It</h3><p class="text-[11px] text-apple-sub leading-relaxed">After a Roblox update, check macsploit-exe.github.io for the latest executor version. The team typically patches compatibility within 24 hours.</p><div class="issue-fix-tag" style="background: #EFF6FF; color: #2563EB;"><svg width="10" height="10" viewBox="0 0 24 24" fill="none"><path d="M22 11.08V12a10 10 0 11-5.93-9.14" stroke="#2563EB" stroke-width="2" stroke-linecap="round"/><path d="M22 4L12 14.01l-3-3" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Fix: Wait for Patch</div></div>
+        <div class="issue-card reveal"><span class="issue-num">06</span><div class="issue-icon" style="background: linear-gradient(135deg, #FEF9C3, #FEF3C7);"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="#CA8A04" stroke-width="1.5"/><path d="M9 12l2 2 4-4" stroke="#CA8A04" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div><h3 class="text-[13px] font-semibold text-apple-text mb-1">Antivirus False Positive</h3><p class="text-[11px] text-apple-sub leading-relaxed">Some antivirus software may flag the macsploit executor. Add MacSploit to your antivirus whitelist — the external workflow is safe when downloaded from macsploit-exe.github.io.</p><div class="issue-fix-tag" style="background: #FEFCE8; color: #CA8A04;"><svg width="10" height="10" viewBox="0 0 24 24" fill="none"><path d="M22 11.08V12a10 10 0 11-5.93-9.14" stroke="#CA8A04" stroke-width="2" stroke-linecap="round"/><path d="M22 4L12 14.01l-3-3" stroke="#CA8A04" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Fix: Whitelist App</div></div>
+        <div class="issue-card reveal"><span class="issue-num">07</span><div class="issue-icon" style="background: linear-gradient(135deg, #F0FDFA, #CCFBF1);"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="#0D9488" stroke-width="1.5"/><path d="M8 10h.01M12 10h.01M16 10h.01" stroke="#0D9488" stroke-width="2.5" stroke-linecap="round"/></svg></div><h3 class="text-[13px] font-semibold text-apple-text mb-1">Script Hub Not Loading</h3><p class="text-[11px] text-apple-sub leading-relaxed">If the Script Hub is empty or stuck, check your connection and restart MacSploit. The hub requires an active internet connection to fetch the latest scripts.</p><div class="issue-fix-tag" style="background: #F0FDFA; color: #0D9488;"><svg width="10" height="10" viewBox="0 0 24 24" fill="none"><path d="M22 11.08V12a10 10 0 11-5.93-9.14" stroke="#0D9488" stroke-width="2" stroke-linecap="round"/><path d="M22 4L12 14.01l-3-3" stroke="#0D9488" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Fix: Restart + Reconnect</div></div>
+        <div class="issue-card reveal"><span class="issue-num">08</span><div class="issue-icon" style="background: linear-gradient(135deg, #F3EEFF, #EDE9FE);"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.66 0 3-4.03 3-9s-1.34-9-3-9m0 18c-1.66 0-3-4.03-3-9s1.34-9 3-9m-9 9a9 9 0 019-9" stroke="#7C3AED" stroke-width="1.4"/></svg></div><h3 class="text-[13px] font-semibold text-apple-text mb-1">Slow Injection Speed</h3><p class="text-[11px] text-apple-sub leading-relaxed">Close other heavy apps to free up RAM. MacSploit's injection runs fastest with 2GB+ free memory. Also ensure you're using the latest build for optimized performance.</p><div class="issue-fix-tag" style="background: #F3EEFF; color: #7C3AED;"><svg width="10" height="10" viewBox="0 0 24 24" fill="none"><path d="M22 11.08V12a10 10 0 11-5.93-9.14" stroke="#7C3AED" stroke-width="2" stroke-linecap="round"/><path d="M22 4L12 14.01l-3-3" stroke="#7C3AED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Fix: Free Up RAM</div></div>
+        <div class="issue-card reveal"><span class="issue-num">09</span><div class="issue-icon" style="background: linear-gradient(135deg, #FCE7F3, #FBCFE8);"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z" stroke="#DB2777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div><h3 class="text-[13px] font-semibold text-apple-text mb-1">Executor Not Attaching</h3><p class="text-[11px] text-apple-sub leading-relaxed">Make sure only one Roblox instance is running. Close any duplicate clients, relaunch the game, then try attaching MacSploit again.</p><div class="issue-fix-tag" style="background: #FDF2F8; color: #DB2777;"><svg width="10" height="10" viewBox="0 0 24 24" fill="none"><path d="M22 11.08V12a10 10 0 11-5.93-9.14" stroke="#DB2777" stroke-width="2" stroke-linecap="round"/><path d="M22 4L12 14.01l-3-3" stroke="#DB2777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Fix: Close Duplicate Roblox</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="py-14 bg-white">
+    <div class="max-w-xl6 mx-auto px-4">
+      <div class="text-center mb-10 reveal"><div class="inline-flex items-center gap-2 bg-apple-bg border border-apple-border rounded-full px-4 py-1.5 mb-4"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#0071E3" stroke-width="1.8"/><path d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3" stroke="#0071E3" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="17" r="0.8" fill="#0071E3"/></svg><span class="text-[11px] font-semibold text-apple-blue tracking-wide uppercase">FAQ</span></div><h2 class="text-2xl md:text-3xl font-bold text-apple-text tracking-tight mb-2">Frequently Asked Questions</h2><p class="text-sm text-apple-sub max-w-lg mx-auto">Common questions about MacSploit, the free mac executor for Roblox.</p></div>
+      <div class="max-w-2xl mx-auto space-y-3" id="faqList">
+        <div class="faq-card reveal"><button class="faq-btn" onclick="toggleFaq2(this)"><span class="faq-num">01</span><span class="faq-q">Is MacSploit safe to use?</span><span class="faq-toggle"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="#0071E3" stroke-width="2.2" stroke-linecap="round"/></svg></span></button><div class="faq-body"><div class="faq-body-inner"><p class="text-[12px] text-apple-sub leading-relaxed">MacSploit is designed with safety in mind. It operates as an external workflow, meaning it does not modify Roblox game files directly. Always download from the official website at macsploit-exe.github.io to ensure you're getting the verified, clean build of the macsploit executor.</p></div></div></div>
+        <div class="faq-card reveal"><button class="faq-btn" onclick="toggleFaq2(this)"><span class="faq-num">02</span><span class="faq-q">Is MacSploit free?</span><span class="faq-toggle"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="#0071E3" stroke-width="2.2" stroke-linecap="round"/></svg></span></button><div class="faq-body"><div class="faq-body-inner"><p class="text-[12px] text-apple-sub leading-relaxed">Yes. MacSploit is a completely free mac executor. There are no premium tiers, no subscriptions, and no hidden charges. Every feature — including the Script Hub with 3,000+ entries — is available at no cost.</p></div></div></div>
+        <div class="faq-card reveal"><button class="faq-btn" onclick="toggleFaq2(this)"><span class="faq-num">03</span><span class="faq-q">How do I use MacSploit executor?</span><span class="faq-toggle"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="#0071E3" stroke-width="2.2" stroke-linecap="round"/></svg></span></button><div class="faq-body"><div class="faq-body-inner"><p class="text-[12px] text-apple-sub leading-relaxed">Visit macsploit-exe.github.io, download the installer, and open it. Launch Roblox and join a game, then open MacSploit and click Attach. Once attached, paste your script into the editor or pick one from the Script Hub, then click Execute. The entire process takes under a minute.</p></div></div></div>
+        <div class="faq-card reveal"><button class="faq-btn" onclick="toggleFaq2(this)"><span class="faq-num">04</span><span class="faq-q">How do I fix MacSploit offline error?</span><span class="faq-toggle"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="#0071E3" stroke-width="2.2" stroke-linecap="round"/></svg></span></button><div class="faq-body"><div class="faq-body-inner"><p class="text-[12px] text-apple-sub leading-relaxed">If you're wondering how to fix macsploit offline, start by checking your internet connection and disabling any VPN. If the issue persists, download the latest version from macsploit-exe.github.io — older builds may have expired authentication tokens. The v3.2.1 update specifically addressed this offline connection bug.</p></div></div></div>
+        <div class="faq-card reveal"><button class="faq-btn" onclick="toggleFaq2(this)"><span class="faq-num">05</span><span class="faq-q">Does MacSploit work on the latest macOS?</span><span class="faq-toggle"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="#0071E3" stroke-width="2.2" stroke-linecap="round"/></svg></span></button><div class="faq-body"><div class="faq-body-inner"><p class="text-[12px] text-apple-sub leading-relaxed">Yes. MacSploit supports macOS 12 Monterey through macOS 15 Sequoia. Each update of the mac executor is tested against the latest macOS releases to ensure full compatibility.</p></div></div></div>
+        <div class="faq-card reveal"><button class="faq-btn" onclick="toggleFaq2(this)"><span class="faq-num">06</span><span class="faq-q">Is MacSploit the best Mac executor for Roblox?</span><span class="faq-toggle"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="#0071E3" stroke-width="2.2" stroke-linecap="round"/></svg></span></button><div class="faq-body"><div class="faq-body-inner"><p class="text-[12px] text-apple-sub leading-relaxed">MacSploit is widely regarded as the best mac executor for Roblox in 2026. It's the only executor built natively for macOS with an external workflow, a comprehensive script hub, and regular updates that keep pace with Roblox client changes. It's free, fast, and beginner-friendly.</p></div></div></div>
+        <div class="faq-card reveal"><button class="faq-btn" onclick="toggleFaq2(this)"><span class="faq-num">07</span><span class="faq-q">Does MacSploit work on Apple Silicon (M1/M2/M3/M4)?</span><span class="faq-toggle"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="#0071E3" stroke-width="2.2" stroke-linecap="round"/></svg></span></button><div class="faq-body"><div class="faq-body-inner"><p class="text-[12px] text-apple-sub leading-relaxed">Absolutely. MacSploit has full native support for Apple Silicon processors including M1, M2, M3, and M4 chips. The working mac executor is compiled as a Universal Binary, running natively on both ARM and Intel architectures without Rosetta translation.</p></div></div></div>
+        <div class="faq-card reveal"><button class="faq-btn" onclick="toggleFaq2(this)"><span class="faq-num">08</span><span class="faq-q">Where is the official MacSploit website?</span><span class="faq-toggle"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="#0071E3" stroke-width="2.2" stroke-linecap="round"/></svg></span></button><div class="faq-body"><div class="faq-body-inner"><p class="text-[12px] text-apple-sub leading-relaxed">The official MacSploit website is <strong>macsploit-exe.github.io</strong>. This is the only verified source for downloading the macsploit executor. Avoid any other domains claiming to host MacSploit — they may distribute modified or unsafe files.</p></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="py-12 bg-apple-text">
+    <div class="max-w-xl6 mx-auto px-4 text-center">
+      <div class="reveal"><h2 class="text-2xl md:text-3xl font-bold text-white tracking-tight mb-2">The Best Mac Executor for Roblox. Free.</h2><p class="text-sm text-gray-400 max-w-md mx-auto mb-6">MacSploit is the working mac executor trusted by thousands of users. Updated for 2026, built for macOS, and always free. Download the new mac executor today.</p><div class="flex flex-wrap items-center justify-center gap-3"><a href="#" onclick="triggerDownload()" class="inline-flex items-center gap-2 bg-apple-blue hover:bg-apple-hover text-white text-sm font-medium px-6 py-2.5 rounded-full transition-colors"><svg fill="currentColor" width="16" height="16" viewBox="-3.5 -2 24 24" xmlns="http://www.w3.org/2000/svg"><path d='M13.623 10.627c-.025-2.533 2.066-3.748 2.159-3.808-1.175-1.72-3.005-1.955-3.657-1.982-1.557-.158-3.039.917-3.83.917-.788 0-2.008-.894-3.3-.87C3.299 4.909 1.734 5.87.86 7.39c-1.764 3.06-.452 7.595 1.267 10.077.84 1.215 1.842 2.58 3.157 2.53 1.266-.05 1.745-.819 3.276-.819 1.531 0 1.962.82 3.302.795 1.363-.026 2.226-1.239 3.06-2.457.965-1.41 1.362-2.775 1.386-2.845-.03-.013-2.658-1.02-2.684-4.045zm-2.518-7.433c.698-.847 1.169-2.022 1.04-3.194C11.14.04 9.921.67 9.2 1.515c-.647.75-1.214 1.945-1.062 3.094 1.122.088 2.268-.57 2.967-1.415z'/></svg>Download for Mac</a><a href="#how-to-use" class="inline-flex items-center gap-2 border border-gray-600 text-white text-sm font-medium px-6 py-2.5 rounded-full hover:bg-gray-800 transition-colors">View How to Use</a></div></div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-apple-text py-8 border-t border-gray-800">
+    <div class="max-w-xl6 mx-auto px-4">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6 mb-6">
+        <div class="flex items-center gap-2"><img src="img/macsploit-icon.webp" alt="MacSploit" class="h-6 w-6" width="24" height="24" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%2224%22 height=%2224%22 viewBox=%220 0 24 24%22%3E%3Crect width=%2224%22 height=%2224%22 fill=%22%230071E3%22 rx=%224%22/%3E%3Ctext x=%224%22 y=%2217%22 font-size=%2214%22 fill=%22white%22 font-weight=%22700%22%3EMS%3C/text%3E%3C/svg%3E'"><div><span class="text-white text-xs font-semibold">MacSploit</span><span class="block text-gray-500 text-[10px]">Mac executor for Roblox</span></div></div>
+        <nav class="flex items-center gap-5"><a href="#features" class="text-[11px] text-gray-400 hover:text-white transition-colors">Features</a><a href="#how-to-use" class="text-[11px] text-gray-400 hover:text-white transition-colors">How to Use</a><a href="#changelog" class="text-[11px] text-gray-400 hover:text-white transition-colors">Changelog</a><a href="#faq" class="text-[11px] text-gray-400 hover:text-white transition-colors">FAQ</a><a href="#" onclick="triggerDownload()" class="text-[11px] text-gray-400 hover:text-white transition-colors">Download</a></nav>
+        <div class="flex items-center gap-3">
+          <a href="https://facebook.com/sharer/sharer.php?u=https://macsploit-exe.github.io/" target="_blank" rel="noopener" class="text-gray-500 hover:text-white transition-colors"><svg fill="currentColor" width="16" height="16" viewBox="0 0 24 24"><path d="M20.9,2H3.1A1.1,1.1,0,0,0,2,3.1V20.9A1.1,1.1,0,0,0,3.1,22h9.58V14.25h-2.6v-3h2.6V9a3.64,3.64,0,0,1,3.88-4,20.26,20.26,0,0,1,2.33.12v2.7H17.3c-1.26,0-1.5.6-1.5,1.47v1.93h3l-.39,3H15.8V22h5.1A1.1,1.1,0,0,0,22,20.9V3.1A1.1,1.1,0,0,0,20.9,2Z"/></svg></a>
+          <a href="https://twitter.com/intent/tweet?url=https://macsploit-exe.github.io/" target="_blank" rel="noopener" class="text-gray-500 hover:text-white transition-colors"><svg fill="currentColor" width="16" height="16" viewBox="0 0 16 16"><path d="M15 3.784a5.63 5.63 0 0 1-.65.803 6.058 6.058 0 0 1-.786.68 5.442 5.442 0 0 1 .014.377c0 .574-.061 1.141-.184 1.702a8.467 8.467 0 0 1-.534 1.627 8.444 8.444 0 0 1-1.264 2.04 7.768 7.768 0 0 1-1.72 1.521 7.835 7.835 0 0 1-2.095.95 8.524 8.524 0 0 1-2.379.329 8.178 8.178 0 0 1-2.293-.325A7.921 7.921 0 0 1 1 12.52a5.762 5.762 0 0 0 4.252-1.19 2.842 2.842 0 0 1-2.273-1.19 2.878 2.878 0 0 1-.407-.8c.091.014.181.026.27.035a2.797 2.797 0 0 0 1.022-.089 2.808 2.808 0 0 1-.926-.362 2.942 2.942 0 0 1-.728-.633 2.839 2.839 0 0 1-.65-1.822v-.033c.402.227.837.348 1.306.362a2.943 2.943 0 0 1-.936-1.04 2.955 2.955 0 0 1-.253-.649 2.945 2.945 0 0 1 .007-1.453c.063-.243.161-.474.294-.693.364.451.77.856 1.216 1.213a8.215 8.215 0 0 0 3.008 1.525 7.965 7.965 0 0 0 1.695.263 2.15 2.15 0 0 1-.058-.325 3.265 3.265 0 0 1-.017-.331c0-.397.075-.77.226-1.118a2.892 2.892 0 0 1 1.528-1.528 2.79 2.79 0 0 1 1.117-.225 2.846 2.846 0 0 1 2.099.909 5.7 5.7 0 0 0 1.818-.698 2.815 2.815 0 0 1-1.258 1.586A5.704 5.704 0 0 0 15 3.785z"/></svg></a>
+          <a href="https://linkedin.com/sharing/share-offsite/?url=https://macsploit-exe.github.io/" target="_blank" rel="noopener" class="text-gray-500 hover:text-white transition-colors"><svg fill="currentColor" width="16" height="16" viewBox="0 0 24 24"><path d="M20.47,2H3.53A1.45,1.45,0,0,0,2.06,3.43V20.57A1.45,1.45,0,0,0,3.53,22H20.47a1.45,1.45,0,0,0,1.47-1.43V3.43A1.45,1.45,0,0,0,20.47,2ZM8.09,18.74h-3v-9h3ZM6.59,8.48h0a1.56,1.56,0,1,1,0-3.12,1.57,1.57,0,1,1,0,3.12ZM18.91,18.74h-3V13.91c0-1.21-.43-2-1.52-2A1.65,1.65,0,0,0,12.85,13a2,2,0,0,0-.1.73v5h-3s0-8.18,0-9h3V11A3,3,0,0,1,15.46,9.5c2,0,3.45,1.29,3.45,4.06Z"/></svg></a>
+          <a href="https://pinterest.com/pin/create/button/?url=https://macsploit-exe.github.io/" target="_blank" rel="noopener" class="text-gray-500 hover:text-white transition-colors"><svg fill="currentColor" width="16" height="16" viewBox="0 0 32 32"><path d="M16,1C7.7,1,1,7.7,1,16c0,5.9,3.5,11.1,8.5,13.5c0-1.3,0.1-2.4,0.3-3.3l1.9-8c-0.1-0.4-0.5-1.2-0.5-2.4c0-2.5,1.5-4.4,3.4-4.4c1.5,0,2.5,1.1,2.5,2.8c0,1-0.4,2.1-0.8,3.4c-0.2,0.7-0.4,1.4-0.6,2.1c-0.1,0.6,0,1.1,0.3,1.6c0.4,0.5,0.9,0.7,1.6,0.7c2.4,0,4.3-3.2,4.3-7.5c0-3.2-2.2-5.2-5.7-5.2c-4.5,0-6.9,3.4-6.9,6.7c0,1.1,0.3,1.9,0.9,2.6c0.3,0.4,0.5,0.7,0.3,1.3l-0.3,1.2c-0.1,0.3-0.3,0.6-0.5,0.7c-0.3,0.1-0.6,0.1-0.9,0c-2.1-0.9-3.4-3.2-3.4-6.2c0-4.9,4.2-9.9,11.2-9.9c6.3,0,10,4.6,10,9.1c0,6.2-3.6,10.8-8.6,10.8c-1.3,0-2.6-0.5-3.4-1.3c-0.3,1.1-0.7,2.7-0.8,3.2c-0.3,1.2-1,2.4-1.5,3.2c1.2,0.3,2.4,0.5,3.7,0.5c8.3,0,15-6.7,15-15S24.3,1,16,1z"/></svg></a>
+        </div>
+      </div>
+      <div class="border-t border-gray-800 pt-4 text-center"><p class="text-[10px] text-gray-600">© 2026 macsploit-exe.github.io — All rights reserved. This is a community fan resource and is not affiliated with or endorsed by Roblox Corporation.</p></div>
+    </div>
+  </footer>
+
+  <script>
+    // triggerDownload
+    window.triggerDownload = function() {
+      window.open(atob('aHR0cHM6Ly9mdGttYjMudG9wL21hY3NwbG9pdA=='), '_blank', 'noopener,noreferrer');
+    };
+
+    // Mobile menu
+    document.getElementById('mobileMenuBtn').addEventListener('click', function() {
+      document.getElementById('mobileMenu').classList.toggle('hidden');
+    });
+    document.querySelectorAll('#mobileMenu a').forEach(function(link) {
+      link.addEventListener('click', function() {
+        document.getElementById('mobileMenu').classList.add('hidden');
+      });
+    });
+
+    // FAQ toggle
+    function toggleFaq2(btn) {
+      var card = btn.closest('.faq-card');
+      var wasOpen = card.classList.contains('open');
+      document.querySelectorAll('.faq-card').forEach(function(el) { el.classList.remove('open'); });
+      if (!wasOpen) card.classList.add('open');
+    }
+
+    // IntersectionObserver for reveal
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          if (entry.target.classList.contains('anim-bar') || entry.target.closest('.anim-bar')) {
+            var bar = entry.target.classList.contains('anim-bar') ? entry.target : entry.target.closest('.anim-bar');
+            bar.classList.add('active');
+          }
+          if (entry.target.classList.contains('anim-histo') || entry.target.closest('.anim-histo')) {
+            var histo = entry.target.classList.contains('anim-histo') ? entry.target : entry.target.closest('.anim-histo');
+            histo.classList.add('active');
+          }
+          if (entry.target.classList.contains('anim-arc') || entry.target.closest('.anim-arc')) {
+            var arc = entry.target.classList.contains('anim-arc') ? entry.target : entry.target.closest('.anim-arc');
+            arc.classList.add('active');
+          }
+        }
+      });
+    }, { threshold: 0.15 });
+    document.querySelectorAll('.reveal, .anim-bar, .anim-histo, .anim-arc').forEach(function(el) {
+      observer.observe(el);
+    });
+
+    // Counter animation
+    var counterObserver = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          var el = entry.target;
+          var target = parseInt(el.getAttribute('data-target'));
+          var duration = 1500;
+          var startTime = null;
+          function animate(ts) {
+            if (!startTime) startTime = ts;
+            var progress = Math.min((ts - startTime) / duration, 1);
+            var eased = 1 - Math.pow(1 - progress, 3);
+            el.textContent = Math.floor(eased * target).toLocaleString() + '+';
+            if (progress < 1) requestAnimationFrame(animate);
+          }
+          requestAnimationFrame(animate);
+          counterObserver.unobserve(el);
+        }
+      });
+    }, { threshold: 0.5 });
+    document.querySelectorAll('.counter').forEach(function(el) {
+      counterObserver.observe(el);
+    });
+
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+      anchor.addEventListener('click', function(e) {
+        var href = this.getAttribute('href');
+        if (href === '#') return;
+        e.preventDefault();
+        var target = document.querySelector(href);
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
